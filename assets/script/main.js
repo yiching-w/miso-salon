@@ -171,8 +171,8 @@
         autoplay: false,
         slidesPerView: 2,
         spaceBetween: 30,
-        slidesPerGroup: 2,
-        loop: true,
+        slidesPerGroup: 1,
+        loop: false,
         pagination: false,
         navigation: {
             nextEl: ".env-swiper-button-next",

@@ -2749,7 +2749,19 @@ ol {
 	background: #f2f2f2;
 	padding: 130px 0 40px;
 	margin: 30px 0;
-	height: 500px;
+}
+
+.env-swiper {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.env-swiper .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .env .section-title {
@@ -2772,17 +2784,11 @@ ol {
 	.env .section-title {
 		width: 300px;
 	}
-
-
 }
 
 @media (max-width: 479px) {
 	.env .section-title {
 		width: 235px;
-	}
-
-	.env {
-		height: 400px;
 	}
 }
 
@@ -2808,10 +2814,6 @@ ol {
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
 	content: '';
-}
-
-.env-swiper {
-	height: 300px;
 }
 
 .env-swiper-button-next,
@@ -2842,10 +2844,6 @@ ol {
 @media (max-width: 578px) {
 	.env-swiper-button-next {
 		right: 20px;
-	}
-
-	.env-swiper {
-		height: 250px;
 	}
 }
 

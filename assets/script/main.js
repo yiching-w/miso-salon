@@ -172,7 +172,10 @@
         slidesPerView: 2,
         spaceBetween: 30,
         slidesPerGroup: 1,
-        loop: false,
+        autoplay: {
+            delay: 2000
+        },
+        loop: true,
         pagination: false,
         navigation: {
             nextEl: ".env-swiper-button-next",

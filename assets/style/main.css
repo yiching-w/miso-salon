@@ -2803,6 +2803,10 @@ ol {
 	content: '';
 }
 
+.env-swiper {
+	height: 300px;
+}
+
 .env-swiper-button-next,
 .video-swiper-button-next {
 	display: none;
@@ -2810,6 +2814,7 @@ ol {
 
 
 @media (max-width: 991px) {
+
 	.env-swiper-button-next {
 		display: flex;
 		width: 45px;
@@ -2830,6 +2835,10 @@ ol {
 @media (max-width: 578px) {
 	.env-swiper-button-next {
 		right: 20px;
+	}
+
+	.env-swiper {
+		height: 250px;
 	}
 }
 

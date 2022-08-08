@@ -2880,7 +2880,7 @@ ol {
 }
 
 .reservation .line {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid #926556;
     width: fit-content;
     margin: 0 auto;
 }
